@@ -153,13 +153,17 @@ right:50px;
 span {
   color:green;
 }
-.location h4 {
+.img-fluid {
+  width:90%;
+}
+.img-fluid h4 {
   text-align:center;
   color:white;
   font-family:monospace;
 
 }
-.location img {
+.img-fluid img {
+  width:100%;
   margin-left:40px;
   margin-top:20px;
 }
