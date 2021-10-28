@@ -164,8 +164,8 @@ span {
 }
 .img-fluid img {
   width:100%;
-  margin-left:40px;
   margin-top:20px;
+  object-fit:cover;
 }
 .heart {
   color:red;
