@@ -132,7 +132,7 @@ nav a:hover {
  color:white;
 }
 .lead {
-  color:gold;
+  color:#ff7979;
 }
 #header img{
   width:100%;
@@ -150,9 +150,7 @@ right:50px;
 .card-img-top {
   height:214px;
 }
-span {
-  color:green;
-}
+
 .img-fluid {
   width:90%;
 }
