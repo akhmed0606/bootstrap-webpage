@@ -151,9 +151,6 @@ right:50px;
   height:214px;
 }
 
-.img-fluid {
-  width:90%;
-}
 .img-fluid h4 {
   text-align:center;
   color:white;
@@ -163,6 +160,7 @@ right:50px;
 .img-fluid img {
   width:100%;
   margin-top:20px;
+  margin-left:5px;
   object-fit:cover;
 }
 .heart {
