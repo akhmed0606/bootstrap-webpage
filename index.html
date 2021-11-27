@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap</title>
+  </head>
+
+  <body>
+    <!-- Nav Menu Icon -->
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Header starts -->
+      <section id="header">
+        <p class="lead text-center">
+          Explore beautiful mountain landscapes,ancient towers,and unique
+          cultural traditions.
+        </p>
+        <img src="./images/11.png" class="img-responsive" alt="Eagle" />
+      </section>
+      <!-- Info-Cards starts here -->
+        <div id='gallery' class="container ">
+          <div class="row">
+            <div class="col-lg-4 mb-4 ">
+              <div class="card">
+                <img class="card-img-top" src="images/Ingushetia.jpeg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Magas</h5>
+                  <p class="card-text">
+                    Magas (Russian: Мага́с) is the capital town of the Republic
+                    of Ingushetia. It was founded in 1992.
+                  </p>
+                  <a
+                    href="https://en.wikipedia.org/wiki/Magas"
+                    class="btn btn-outline-success btn-sm"
+                    >Download</a
+                  >
+                  <a href="" class="btn btn-outline-danger btn-sm"
+                    ><i class="far fa-heart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div class="card">
+                <img class="card-img-top" src="images/Mountain.jpeg" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Spectacular mountains</h5>
+                  <p class="card-text">
+                    There are 46 named mountains in Ingushetia. The highest and
+                    the most prominent mountain is Shan.
+                  </p>
+                  <a
+                    href="https://peakvisor.com/adm/ingushetia.html"
+                    class="btn btn-outline-success btn-sm"
+                    >Download</a
+                  >
+                  <a href="" class="btn btn-outline-danger btn-sm"
+                    ><i class="far fa-heart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+              <div id="card" class="card">
+                <img
+                  id="card-img"
+                  class="card-img-top"
+                  src="images/ZoomTower.jpeg"
+                  alt=""
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Ancient towers</h5>
+                  <p class="card-text">
+                    Ingush people built these high structures for daily living
+                    in ancient times, and hundreds of them are still intact.
+                  </p>
+                  <a
+                    href="https://www.rbth.com/travel/331663-russians-ingush-vainakh-towers"
+                    class="btn btn-outline-success btn-sm"
+                    >Download</a
+                  >
+                  <a href="" class="btn btn-outline-danger btn-sm"
+                    ><i class="far fa-heart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Location SVG -->
+      <section class="img-fluid ">
+        <h4>Located in the <span class="heart">heart</span> of the Caucasus</h4>
+        <img src="images/Ingushetia_map_en.svg" />
+      </section>
+
+      <section class="mt-4">
+        <!--Contact Form starts-->
+        <h2 id="contact" class="font-weight-bold text-center my-4 text-dark">
+          Contact us
+        </h2>
+        <!--Section description-->
+
+        <div class="row">
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="md-form mb-4">
+                    <input
+                      placeholder="Name"
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control shadow-none"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="md-form mb-4">
+                    <input
+                      placeholder="Email"
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control shadow-none"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <input
+                      placeholder="Subject"
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      class="form-control shadow-none"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <textarea
+                      placeholder="Message"
+                      type="text"
+                      rows="2"
+                      id="textarea"
+                      class="form-control md-textarea mt-4 shadow-none"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="text-center text-md-left">
+              <a class="btn btn-danger mt-3" id="send">Send</a>
+            </div>
+            <div class="status"></div>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <p class="text-dark">573 Alien St,Ingushetia,386433</p>
+              </li>
+
+              <li>
+                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <p class="text-dark">+ 06 234 567 89</p>
+              </li>
+
+              <li>
+                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <p class="text-dark">contact@ingtravel.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Footer starts-->
+      <footer id="sticky-footer" class="text-white-50">
+        <div class="text-center">
+          <hr />
+          <p class="text-dark">&copy; 2021 Developed by Akhmed N</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Hiding navigation starts -->
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+        <li>
+          <i class="fas fa-globe"></i
+          ><a href="https://en.wikipedia.org/wiki/Ingushetia">Explore</a>
+        </li>
+        <li><i class="fas fa-images"></i><a href="#gallery">Gallery</a></li>
+        <li>
+          <i class="fas fa-address-book"></i><a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <script src="NavRbar.js"></script>
+  </body>
+</html>
